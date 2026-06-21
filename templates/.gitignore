@@ -1,0 +1,20 @@
+# PHI + large binaries — keep out of git history
+*.pdf
+*.PDF
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.dcm
+*.zip
+*.7z
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Tool logs (optional local only)
+_tools/logs/

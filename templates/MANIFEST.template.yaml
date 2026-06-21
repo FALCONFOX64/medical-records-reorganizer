@@ -1,0 +1,25 @@
+# Machine-readable index for the medical records archive.
+# Generated during Phase 5. One entry per tracked file.
+
+archive:
+  name: ""
+  created: ""          # YYYY-MM-DD
+  last_updated: ""     # YYYY-MM-DD
+  phi_notice: "Protected Health Information. Handle according to HIPAA and local law."
+
+files:
+  - path: "01_source/labs/2024-03-15_labs_cbc_panel.pdf"
+    kind: provider_report          # presentation_copy | provider_report | external_provider_note | user_synthesis | paperwork
+    date: "2024-03-15"
+    provider: ""
+    topic: "labs"
+    authoritative_source: null     # path to CCDA bundle or canonical source, if applicable
+    superseded_by: null
+    notes: ""
+
+# kind definitions:
+#   presentation_copy      — formatted for sharing (may duplicate source content)
+#   provider_report        — original report from a healthcare provider
+#   external_provider_note — note from outside your primary care network
+#   user_synthesis         — your own timeline, summary, or compiled narrative
+#   paperwork              — records requests, consent forms, admin correspondence
